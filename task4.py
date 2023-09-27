@@ -16,3 +16,17 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+
+data = int(input("Enter the radius: "))
+data2 = int(input("Enter the height: "))
+aa = math.pi*math.pow(data,2)
+b = int(math.pow(data2,2))
+a = int(math.pow(data,2))
+c = math.sqrt(a + b)
+m = math.pi*data*c
+g = math.pi*math.pow(data,2)
+g = math.pi*math.pow(data,2)
+surfacearea = m + g
+print(f"The surface is {surfacearea}.")

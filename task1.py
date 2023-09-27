@@ -22,3 +22,12 @@ What ir your email:crazyAsian@qq.com
 Your name is Jackie Chan, and your email is crazyAsian@qq.com
 
 """
+
+data = input ("What is your name? ")
+print("You entered: " + data)
+print("\n\n\n\n")
+question = "What is your email?"
+response = input(question)
+print(f"Your email is {response}")
+print("\n\n\n")
+print(f"Your name is {data}, and your email is {response}")
